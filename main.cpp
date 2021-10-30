@@ -22,3 +22,8 @@ int LaterInYear(int d1, int d2)
 {
     return d1 > d2 ? d1 : d2;
 }
+
+int DaysInYear(int year)
+{
+    return IsLeapYear(year) ? 366 : 365;
+}
