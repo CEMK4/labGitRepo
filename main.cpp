@@ -36,3 +36,8 @@ int DaysInYearRange(int y1, int y2)
         res += DaysInYear(i);
     }
 }
+
+int SeconsInHours()
+{
+    return 3600;
+}
