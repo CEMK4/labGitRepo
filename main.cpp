@@ -17,3 +17,8 @@ bool IsLeapYear(int year)
             return true;
     else return false;
 }
+
+int LaterInYear(int d1, int d2)
+{
+    return d1 > d2 ? d1 : d2;
+}
